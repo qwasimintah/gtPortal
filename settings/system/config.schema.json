@@ -1,0 +1,14 @@
+
+{
+"software":{"type":"string" , "length":50},
+"status":{"type":"bool"},
+"admin_msisdn":{"type":"string" , "length":12},
+"last_access":{"type":"string" , "parttern":"#^[0-9]{2}/[0-9]{2}/20[0-9]{2} [0-9]{2}:[0-9]{2}:[0-9]{2}$#"},
+"sleeping_period":{"type":"interger" ,"min":20},
+"debug_mode":{"type":"bool"},
+"event_mode":{"type":"bool"},
+"version":{"type":"string", "parttern":"#^[vV][1-9][0-9]*_[0-9]$#"},
+"author":{"type":"string"},
+"supervisor":{"type":"string"},
+"testers":{"type":"array"}
+}

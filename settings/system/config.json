@@ -1,0 +1,32 @@
+{
+    "software": "gtPortal",
+    "pid": 27044,
+    "status": true,
+    "port_engine":"5056",
+    "port_db":"6970",
+    "server_payment_sys_pid":-1,
+    "server_alerting_sys_pid":-1,
+    "server_payment_sys_cycle":1,
+    "server_alerting_sys_cycle":2,
+    "adminm_msisdn":"233265456003",
+    "start_time":"2016\/01\/13 15:20:26",
+    "sms_authentication_key":"bnNhbm9sYWJzOlo1YjRFNw",
+    "sms_source":"SMILE",
+    "sms_country":"GHS",
+    "sql_username":"root",
+    "sql_password":"",
+    "sql_db_string":"jdbc:mysql://localhost/svc_gtPortal",
+    "dir_relative_file_upload":"logs/upload",
+    "sleeping_period":"35",
+    "debug_mode": true,
+    "event_mode": true,
+    "version": "V1_0 ",
+    "author": "@Djan",
+    "supervisor": "Christian GLOUIN",
+    "testers": [
+        "LINDA@NSANO",
+        "MARIAN@NSANO",
+
+    ]
+
+}
